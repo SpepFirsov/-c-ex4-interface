@@ -134,7 +134,7 @@ namespace BGame
             }
 
             ////////
-            Console.WriteLine("choose character(enter number or full name");
+            Console.WriteLine("choose character(enter number or full name)");
             Console.WriteLine("1.Jack");
             Console.WriteLine("2.Lucas");
             playerch = Console.ReadLine();
