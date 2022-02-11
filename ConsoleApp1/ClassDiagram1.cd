@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BGame.Armor" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAQAAAgAAAAI=</HashCode>
+      <FileName>Armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BGame.Enemy" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAADAIAAAgCAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BGame.HSA_Weapon" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAACAAAAAgAAQAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HSA_Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BGame.Item" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAgAAAAAAAAAQAABBFAAAQAQAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BGame.Money" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="BGame.Unit" ManuallyRouted="true">
+      <Path>
+        <Point X="12.25" Y="5.25" />
+        <Point X="12.25" Y="4.729" />
+        <Point X="11.25" Y="4.729" />
+        <Point X="11.25" Y="5.566" />
+        <Point X="5" Y="5.566" />
+        <Point X="5" Y="5.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAEAA=</HashCode>
+      <FileName>Money.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BGame.Soldier" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAADAIAAAgCAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BGame.Unit" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAgAAAAAAAAAQAAAAEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Unit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BGame.Weapon" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="BGame.Unit" ManuallyRouted="true">
+      <Path>
+        <Point X="12.25" Y="5.25" />
+        <Point X="12.25" Y="2.566" />
+        <Point X="11.25" Y="2.566" />
+        <Point X="11.25" Y="2" />
+        <Point X="6.792" Y="2" />
+        <Point X="6.792" Y="2.754" />
+        <Point X="5" Y="2.754" />
+        <Point X="5" Y="2.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAQAAAAFAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
